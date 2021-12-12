@@ -1,0 +1,72 @@
+body {
+    font-family: "Sora", sans-serif;
+}
+h1 {
+    margin: 10px 0 20px 0;
+}
+h2 {
+    font-size: 325%;
+}
+a {
+    color: black;
+}
+
+.main-card {
+    margin-top: 20px;
+    background: linear-gradient(#f9f7f7, #dbe2ef);
+}
+.temperature-switch {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    float: right;
+}
+.cpositioning {
+    padding: 0px 6px 0px 0px;
+}
+
+.main-weather-image {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin: -5px 6px 25px 21px;
+}
+.nav-link {
+    color: black;
+}
+.todayweather-maincard {
+    margin: 25px 0 15px 0;
+}
+.precipitation-wind {
+    font-size: 80%;
+}
+.sec-search-box {
+    padding: 0 0px 0px 25px;
+    margin: 0 0 35px 0;
+}
+.search-box:hover {
+    cursor: pointer;
+}
+.btn-search-box {
+    border-radius: 44px;
+}
+.search-box-icon {
+    border-radius: 44px;
+}
+.weather-image {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.current-location-button {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 4px 15px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: #dbe2ef;
+    display: flex;
+    flex-direction: row;
+}
