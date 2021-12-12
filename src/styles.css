@@ -11,6 +11,10 @@ a {
     color: black;
 }
 
+footer {
+    margin: 0 60px;
+}
+
 .main-card {
     margin-top: 20px;
     background: linear-gradient(#f9f7f7, #dbe2ef);
